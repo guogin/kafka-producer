@@ -6,3 +6,8 @@ logging:
     com:
       example:
         kafkaproducer: info
+com:
+  example:
+    kafka:
+      producer:
+        bootstrapServer: localhost:9092
