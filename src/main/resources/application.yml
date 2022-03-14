@@ -1,13 +1,12 @@
 ---
 server:
   port: 8080
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
 logging:
   level:
     com:
       example:
         kafkaproducer: info
-com:
-  example:
-    kafka:
-      producer:
-        bootstrapServer: localhost:9092
